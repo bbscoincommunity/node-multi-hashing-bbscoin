@@ -1,0 +1,75 @@
+{
+  "_args": [
+    [
+      "multi-hashing-bbscoin@1.0.2",
+      "/home/bbscoin/bbscoin-pool"
+    ]
+  ],
+  "_from": "multi-hashing-bbscoin@1.0.2",
+  "_id": "multi-hashing-bbscoin@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pkW+icr/zWHq7oJc9E5wO3jjdAaeGB6ArbVJYkhNkQsQho5J1gTPaQR3A6pV+Kb62ANlYog1qZf+OeeP0gzTEQ==",
+  "_location": "/multi-hashing-bbscoin",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "multi-hashing-bbscoin@1.0.2",
+    "name": "multi-hashing-bbscoin",
+    "escapedName": "multi-hashing-bbscoin",
+    "rawSpec": "1.0.2",
+    "saveSpec": null,
+    "fetchSpec": "1.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/multi-hashing-bbscoin/-/multi-hashing-bbscoin-1.0.2.tgz",
+  "_spec": "1.0.2",
+  "_where": "/home/bbscoin/bbscoin-pool",
+  "author": {
+    "name": "Matthew Little",
+    "email": "zone117x@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bbscoin/multi-hashing-bbscoin/issues"
+  },
+  "dependencies": {
+    "bindings": "*",
+    "nan": "^2.11.0"
+  },
+  "description": "multi-hashing-bbscoin =====================",
+  "devDependencies": {
+    "mocha": "^5.1.0"
+  },
+  "gypfile": true,
+  "homepage": "https://github.com/bbscoin/multi-hashing-bbscoin#readme",
+  "keywords": [
+    "scrypt",
+    "script-n",
+    "x11",
+    "quark",
+    "keccak_hash",
+    "skein",
+    "bcrypt",
+    "keccak",
+    "blake",
+    "shavite",
+    "fugue",
+    "sha1",
+    "cryptonight",
+    "cryptonight v7",
+    "cryptonight lite"
+  ],
+  "main": "multihashing",
+  "name": "multi-hashing-bbscoin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbscoin/multi-hashing-bbscoin.git"
+  },
+  "scripts": {
+    "install": "node-gyp rebuild",
+    "test": "mocha ./tests/**/*-test.js"
+  },
+  "version": "1.0.2"
+}
